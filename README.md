@@ -64,7 +64,7 @@ Since RDKit is not a native Python library, we simplified the installation proce
 
 •Andrzej Bojarski
 
-•Paweł Zajdel
+*Paweł Zajdel
 
 ---
 
