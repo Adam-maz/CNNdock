@@ -15,7 +15,8 @@ To enhance CNNdock's robustness, accuracy, and accessibility, we developed a dee
 This integration of data provides complementary information, improving the model's predictive power.  
 Additionally, we have accelerated the image generation process using a custom Python-based plugin for Maestro [2]. The plugin, originally implemented with `tkinter`, simplifies the workflow for generating these images.
 
-<img src="./images/CNN_diagram.png" alt="Opis obrazu" style="width: 300px; transform: rotate(180deg);"/>
+<img src="./images/diagram.png" alt="Opis obrazu" style="width: 300px; transform: rotate(90deg);"/>
+
 
 ---
 
