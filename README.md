@@ -51,7 +51,9 @@ The plugin uses Python libraries to interface with Maestro and requires certain 
 
 The classifier generates Morgan fingerprints from SMILES strings using the open-source chemoinformatics library **RDKit** [3].  
 Since RDKit is not a native Python library, we simplified the installation process by incorporating the following command at the top of the code:
-**!pip install rdkit**
+```python
+!pip install rdkit
+```
 
 ---
 
@@ -65,6 +67,6 @@ Since RDKit is not a native Python library, we simplified the installation proce
 ---
 
 ## References
-•publication on the way\ 
-•https://www.schrodinger.com/python-api/\ 
-•https://www.rdkit.org/docs/\ 
+•publication on the way   
+•https://www.schrodinger.com/python-api/   
+•https://www.rdkit.org/docs/  
