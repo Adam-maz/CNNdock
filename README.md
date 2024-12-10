@@ -56,11 +56,11 @@ Since RDKit is not a native Python library, we simplified the installation proce
 ---
 
 ## Development Team
-• Adam Mazur\
-• Rafał Kurczab\ 
-• Anna Sarka\ 
-• Andrzej Bojarski\ 
-• Paweł Zajdel\ 
+• Adam Mazur  
+• Rafał Kurczab   
+• Anna Sarka  
+• Andrzej Bojarski   
+• Paweł Zajdel  
 
 ---
 
