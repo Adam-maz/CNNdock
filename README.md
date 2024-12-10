@@ -61,15 +61,6 @@ Since RDKit is not a native Python library, we simplified the installation proce
 
 ---
 
-## Development Team
-• Adam Mazur  
-• Rafał Kurczab   
-• Anna Sarka  
-• Andrzej Bojarski   
-• Paweł Zajdel  
-
----
-
 ## References
 •publication on the way   
 •https://www.schrodinger.com/python-api/   
