@@ -6,14 +6,14 @@ CNNdock is a project demonstrating the utility of converting molecular docking o
 
 ## Workflow
 
-As outlined in [1], we propose a hybrid Structure-Based and Ligand-Based Drug Design (SB-/LBDD) protocol.  
-To enhance CNNdock's robustness, accuracy, and accessibility, we developed a deep neural network with two inputs:
+I am proposing a hybrid Structure-Based and Ligand-Based Drug Design (SB-/LBDD) protocol.  
+To enhance CNNdock's robustness, accuracy, and accessibility, I have developed a deep neural network with two inputs:
 
 1. **Images** of docked compounds derived from the Maestro Schrodinger workspace.
 2. **Molecular fingerprints**.
 
 This integration of data provides complementary information, improving the model's predictive power.  
-Additionally, we have accelerated the image generation process using a custom Python-based plugin for Maestro [2]. The plugin, originally implemented with `tkinter`, simplifies the workflow for generating these images.
+Additionally, I have accelerated the image generation process using a custom Python-based plugin for Maestro [1]. The plugin, originally implemented with `tkinter`, simplifies the workflow for generating these images.
 
 <img src="./images/CNN_diagram_rotated.png" alt="Opis obrazu" style="transform: rotate(90deg);"/>
 
@@ -25,7 +25,7 @@ Additionally, we have accelerated the image generation process using a custom Py
 
 1. **CNNdock_estimator.ipynb** - CNN classifier based on images and fingerprints.  
 2. **Fps_estimator.ipynb** - Reference classifier based only on fingerprints.  
-3. **CNNdock_maestro_plugin.py** - Python plugin for Maestro, used for taking screenshots of the workspace.  
+3. **CNNdock_maestro_plugin.py** - Python plugin for Maestro Schrodinger Suite (versions below 2024-4), used for taking screenshots of the workspace.  
 4. **ChEMBL_parser.ipynb** - Code for parsing and initial preprocessing of chemical data to build the training dataset.
 
 ---
@@ -53,7 +53,7 @@ The plugin uses Python libraries to interface with Maestro and requires certain 
 
 ### CNNdock Classifier
 
-The classifier generates Morgan fingerprints from SMILES strings using the open-source chemoinformatics library **RDKit** [3].  
+The classifier generates Morgan fingerprints from SMILES strings using the open-source chemoinformatics library **RDKit** [2].  
 Since RDKit is not a native Python library, we simplified the installation process by incorporating the following command at the top of the code:
 ```python
 !pip install rdkit
@@ -62,6 +62,5 @@ Since RDKit is not a native Python library, we simplified the installation proce
 ---
 
 ## References
-•publication on the way   
-•https://www.schrodinger.com/python-api/   
-•https://www.rdkit.org/docs/  
+1.https://www.schrodinger.com/python-api/   
+2.https://www.rdkit.org/docs/  
