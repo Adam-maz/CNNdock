@@ -27,7 +27,7 @@ Additionally, I have accelerated the image generation process using a custom Pyt
 2. **Fps_estimator.ipynb** - Reference classifier based only on fingerprints.  
 3. **CNNdock_maestro_plugin.py** - Python plugin for Maestro Schrodinger Suite (versions below 2024-4), used for taking screenshots of the workspace.  
 4. **ChEMBL_parser.ipynb** - Code for parsing and initial preprocessing of chemical data to build the training dataset.
-5. **Example_dataset** - folder containing images of ligands after molecular docking, used to train the classifier.
+5. **Example_dataset** -  compressed folder (.zip) containing images of ligands after molecular docking, used to train the classifier.
 
 ---
 
